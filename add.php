@@ -24,7 +24,7 @@ asdasd
 </div>
 
 <button id="view-cart">View Cart</button>
-
+asdasdasdasdasasdsada bagoo
 <div id="cart-items"></div>
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
