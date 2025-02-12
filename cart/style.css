@@ -1,0 +1,28 @@
+.product {
+  margin-bottom: 20px;
+}
+
+.add-to-cart {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.cart {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.cart h3 {
+  margin-top: 0;
+}
+
+.cart-item {
+  margin-bottom: 5px;
+}
+
+#cart-total {
+  font-weight: bold;
+}

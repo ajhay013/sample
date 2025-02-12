@@ -1,0 +1,216 @@
+*
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: url('nba.webp');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: sans-seriff;
+	
+}
+
+.navbar ul
+{
+	list-style: none;
+	background:#1C2833;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+
+.navbar li
+{
+	display: inline-block;
+	font-color: #F1C40F;
+}
+
+.logo img
+{
+	width: 100px;
+	float: left;
+	padding-left: 3%;
+	padding-top: 0.5%;
+	padding-bottom: 5px;
+	
+}
+
+
+h2
+{
+	background-color:rgba(0,0,0,0.8);
+	padding: 0;
+	margin:0;
+	text-align: center;
+	font-size: 50px;
+	font-family:'Russo One', sans-seriff;
+	color: black;
+	-webkit-text-fill-color: white;
+	-webkit-text-stroke-width: 2px;
+}
+
+.navbar a
+{
+	text-decoration: none;
+	color: #FDFEFE;
+	width:100px;
+	display: block;
+	padding: 20px 20px;
+	font-weight: bold;
+	font-family:  sans-seriff;
+	text-align: center;
+	font-size: 15px;
+	color: #F1C40F;
+	
+}
+
+.navbar a:hover
+{
+	background:black;
+	border-radius: 100px;
+}
+
+.container
+{
+	width:1280px;
+	margin: 70px auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+}
+
+.container .box
+{
+	position: relative;
+	width: 300px;
+	height: 300px;
+	background: #0F1DF1;
+	margin: 10px;
+	box-sizing: border-box;
+	display: inline-block;
+	
+}	
+
+.container .box .imgBox
+{
+	position: relative;
+	overflow: hidden;
+	
+}
+
+.container .box .imgBox img
+{
+	max-width:100%;
+	transition: transform 2s;
+}
+
+.container .box:hover .imgBox img
+{
+	transform: scale(1.2);
+}
+
+
+.container .box .name
+{
+	position: absolute;
+	top: 50px;
+	left: 25px;
+	bottom: 50px;
+	right: 25px;
+	background: rgba(0,0,0,.8);
+	transform: scaleY(0);
+	transition: transform .5s;
+}
+
+.container .box:hover .name
+{
+	transform: scaleY(1);
+}
+.container .box .name .content
+{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align:center;
+	padding: 15px;
+	color: #fff;
+}
+
+.container .box .name .content h4
+{
+	
+	font-size: 35px;
+	color: white;
+	font-family: 'Orbitron', sans-seriff;
+	
+}
+
+.container .box .name .content h5
+{
+	font-size: 25px;
+	color: white;
+	font-family: 'Orbitron', sans-seriff;
+}
+	
+.container .box .name .content h6
+{
+	margin: 40px;
+	font-size: 40px;
+	color: white;
+	font-family: 'Orbitron', sans-seriff;
+}
+
+.container .box .name .content h7
+{
+	position: center;
+	font-size: 40px;
+	color: white;
+	font-family: 'Orbitron', sans-seriff;
+}	
+
+.container .box .name .content h8
+{
+	font-size: 45px;
+	color: white;
+	font-family: 'Orbitron', sans-seriff;
+}	
+
+.btn
+{
+	font-family: 'Century Gothic', sans-seriff;
+	font-size: 15px;
+	font-weight: bold;
+	background: rgba(0,0,0,0.8) ;
+	width: 10px;	
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	border-radius: 50px;
+	border: 3px solid;
+	border-color: red ;
+	cursor: pointer;
+	box-shadow: 0 0 10px rgba(0,0,0,0,8);
+	-webkit-transition-duration: 0.3s;
+	-webkit-transition-property: box-shadow, transform;	
+}
+
+.btn:hover
+{
+	background: red;
+	transition: 0.5s;
+	
+}
+
+
+@media only screen and (max-width: 414px){
+
+	.text{
+		visibility: collapse;
+
+}
+
+
+
+}

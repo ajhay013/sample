@@ -1,0 +1,96 @@
+*
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image: url('jordan.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: sans-seriff;
+	
+}
+
+.navbar ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+
+.navbar li
+{
+	display: inline-block;
+	font-color: #F1C40F;
+}
+
+.logo img
+{
+	width: 100px;
+	float: left;
+	padding-left: 3%;
+	padding-top: 0.5%;
+	padding-bottom: 5px;
+	
+}
+
+
+h1
+{
+	text-align: center;
+	position: absolute;
+	font-size: 55px;
+	font-family:'Russo One', sans-seriff;
+	color: black;
+	width: 800px;
+	height: 300px;
+	margin: 20% 23%;
+	-webkit-text-fill-color: white;
+	-webkit-text-stroke-width: 2px;
+}
+
+h2
+{
+	text-align: center;
+	position: absolute;
+	font-size: 35px;
+	font-family:'Russo One', sans-seriff;
+	color: black;
+	width: 700px;
+	height: 300px;
+	margin: 15% 25%;
+	-webkit-text-fill-color: white;
+	-webkit-text-stroke-width: 2px;
+}
+
+.navbar a
+{
+	text-decoration: none;
+	color: #FDFEFE;
+	width:100px;
+	display: block;
+	padding: 20px 20px;
+	font-weight: bold;
+	font-family:  sans-seriff;
+	text-align: center;
+	font-size: 15px;
+	color: #F1C40F;
+	
+}
+
+.navbar a:hover
+{
+	background:#4C4C4B;
+	border-radius: 100px;
+}
+
+@media only screen and (max-width: 414px){
+
+	.text{
+		visibility: collapse;
+
+}
+
+
+
+}

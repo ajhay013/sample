@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(nba.webp) no-repeat;
+  background-size: cover;
+}
+.box{
+  width: 450px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box-img{
+  border-radius: 0%;
+  width: 200px;
+  height: 200px;
+}
+.box h1{
+  font-size: 30px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align: justify;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color: #b9b9b9;
+}
+
+
+.navbar ul
+{
+	list-style: none;
+	background:#1C2833;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+}
+
+.navbar li
+{
+	display: inline-block;
+	font-color: #F1C40F;
+}
+
+.logo img
+{
+	width: 100px;
+	float: left;
+	padding-left: 3%;
+	padding-top: 0.5%;
+	
+}
+
+.navbar a
+{
+	text-decoration: none;
+	color: #FDFEFE;
+	width:100px;
+	display: block;
+	padding: 15px 20px;
+	font-weight: bold;
+	font-family:  sans-seriff;
+	text-align: center;
+	font-size: 15px;
+	color: #F1C40F;
+	
+}
+
+.navbar a:hover
+{
+	background:black;
+	border-radius: 100px;
+}
