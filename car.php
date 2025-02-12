@@ -13,6 +13,9 @@
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
+    if ($conn->connect_error)  {
+      
+    }
 
     // Fetch cart items from the database
     $sql = "SELECT * FROM cart";
