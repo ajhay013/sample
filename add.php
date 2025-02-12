@@ -17,7 +17,7 @@
 </div>
 
 <div class="product">
-  <h3>Product 2</h3>
+  <h3>SADHASJDHSAJDSAJ AJSHDAJSHDASJDHJAS HD</h3>
   <p>Price: $15.99</p>
   <img src="product2.jpg" alt="Product 2">
   <button class="add-to-cart" data-name="Product 2" data-price="15.99" data-image="product2.jpg">Add to Cart</button>
