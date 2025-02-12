@@ -10,12 +10,12 @@
 <body>
 
 <div class="product">
-  <h3>Product 1</h3>
+  <h3>Product 1</h3>asdasdasdsadsad
   <p>Price: $10.99</p>
   <img src="product1.jpg" alt="Product 1">
   <button class="add-to-cart" data-name="Product 1" data-price="10.99" data-image="product1.jpg">Add to Cart</button>
 </div>
-
+asdasd
 <div class="product">
   <h3>SADHASJDHSAJDSAJ AJSHDAJSHDASJDHJAS HD</h3>
   <p>Price: $15.99</p>
